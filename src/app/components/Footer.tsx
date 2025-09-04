@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Footer = () => {
 	return (
-		<footer className='w-full bg-white text-center py-16 px-4'>
+		<footer id='contact' className='w-full bg-white text-center py-16 px-4'>
 			<div className='flex items-center justify-center mb-12'>
 				<hr className='w-1/4 border-t border-gray-300' />
 				<h2 className='text-xl md:text-2xl font-semibold text-gray-800 mx-4 whitespace-nowrap'>

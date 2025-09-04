@@ -23,7 +23,7 @@ const projects = [
 			'AWS S3',
 			'Speechify API',
 		],
-		liveUrl: '#',
+		liveUrl: 'https://mern-blog-one-psi.vercel.app/',
 		githubUrl: '#',
 		image: '/medium.png',
 	},
@@ -111,14 +111,6 @@ export const Projects = () => {
 										))}
 									</div>
 									<div className='flex gap-4'>
-										<a
-											href={project.githubUrl}
-											target='_blank'
-											rel='noopener noreferrer'
-											className='text-gray-600 hover:text-gray-800 transition-colors'
-										>
-											<Github size={24} />
-										</a>
 										<a
 											href={project.liveUrl}
 											target='_blank'

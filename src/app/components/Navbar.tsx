@@ -30,7 +30,7 @@ export const Navbar = () => {
 						</li>
 						<li>
 							<a href='#contact' className='hover:text-blue-500'>
-								Ccontact
+								Contact
 							</a>
 						</li>
 					</ul>
