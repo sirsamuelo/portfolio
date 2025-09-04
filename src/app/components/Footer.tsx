@@ -18,18 +18,16 @@ export const Footer = () => {
 				you could contact me with any available job opportunities.
 			</p>
 
-			{/* Write Message Button */}
 			<a
 				href='mailto:tvoj-email@example.com'
 				className='inline-block px-8 py-3 mb-16 text-sm font-medium text-gray-600 border border-gray-400 rounded-full transition-colors hover:bg-gray-100'
 			>
-				Write Message
+				samo.webdev@gmail.com
 			</a>
 
-			{/* Social Icons */}
 			<div className='flex justify-center gap-6 mb-4'>
 				<a
-					href='https://github.com/tvoje-meno'
+					href='https://github.com/sirsamuelo'
 					target='_blank'
 					rel='noopener noreferrer'
 					aria-label='GitHub Profile'
@@ -38,7 +36,7 @@ export const Footer = () => {
 					<Github size={24} />
 				</a>
 				<a
-					href='https://linkedin.com/in/tvoje-meno'
+					href='https://www.linkedin.com/in/samuel-%C5%A1irotn%C3%ADk-a9b3b3166/'
 					target='_blank'
 					rel='noopener noreferrer'
 					aria-label='LinkedIn Profile'
