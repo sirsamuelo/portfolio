@@ -50,7 +50,7 @@ export const Footer = () => {
 
 			{/* Copyright */}
 			<p className='text-xs text-gray-500'>
-				John Smith - {new Date().getFullYear()}
+				Sam - {new Date().getFullYear()}
 			</p>
 		</footer>
 	);

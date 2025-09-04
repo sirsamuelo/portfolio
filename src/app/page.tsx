@@ -1,4 +1,4 @@
-import { About } from './components/About';
+// import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -10,7 +10,7 @@ export default function Home() {
 		<div className='min-h-screen flex flex-col'>
 			<Navbar />
 			<Hero />
-			<About />
+			{/* <About /> */}
 			<Experience />
 			<Projects />
 			<Footer />

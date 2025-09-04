@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 
 const projects = [
@@ -51,7 +51,7 @@ const projects = [
 			"Sekcia 'Moje inzeráty' pre správu vlastných ponúk",
 			'Ukladanie obrázkov inzerátov na AWS S3',
 		],
-		liveUrl: 'https://tradehub-demo.vercel.app',
+		liveUrl: 'https://tradehubik.vercel.app/',
 		githubUrl: 'https://github.com/tvoje-meno/tradehub-repo',
 		image: '/tradehub.png',
 	},
@@ -77,7 +77,6 @@ export const Projects = () => {
 						>
 							{/* Project Image */}
 							<div className='w-full md:w-1/2 bg-gray-200 aspect-video rounded-lg overflow-hidden shadow-lg'>
-								{/* Next.js Image component for optimization */}
 								<Image
 									src={project.image}
 									alt={project.name}
